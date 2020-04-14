@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Yeseva One';
+  src: url(../fonts/yeseva-regular.ttf);
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.header-section {
+  padding-left: 175px;
+  padding-right: 175px;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 36px;
+  text-transform: uppercase;
+}
