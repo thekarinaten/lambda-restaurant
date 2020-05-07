@@ -3,6 +3,33 @@
   src: url(../fonts/yeseva-regular.ttf);
 }
 
+.about-cook {
+  transform: translateX(15%);
+  padding-top: 50px;
+}
+
+.about-food {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 430px;
+  text-align: center;
+}
+
+.about-title {
+  color: #cc9900;
+  font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+
+.about-txt {
+  color: #4c4c4c;
+  font-family: 'Lato', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 16px;
+  padding-top: 30px;
+}
+
 body {
   margin: 0 auto;
 }
@@ -91,6 +118,21 @@ button {
   display: flex;
 }
 
+.section-about {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.section-about_wrapper {
+  background-image: url(/assets/images/about-bg.png);
+  background-repeat: no-repeat;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
 .social-image {
   margin-right: 8px;
   width: 23px; 
@@ -112,6 +154,7 @@ button {
   margin-top: 130px;
   text-align: center;
 }
+
 
 .title-decoration {
   display: block;
