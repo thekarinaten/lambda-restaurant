@@ -128,8 +128,8 @@ button {
 .section-about_wrapper {
   background-image: url(/assets/images/about-bg.png);
   background-repeat: no-repeat;
+  background-position: 50% 0px;
   display: flex;
-  margin: 0 auto;
   justify-content: center;
 }
 
