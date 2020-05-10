@@ -76,8 +76,28 @@ button {
   white-space: nowrap;
 }
 
-.promo-section {
-  padding-bottom: 130px;
+.content-title {
+  color: rgb(255, 255, 255);
+  font-family: "Yeseva One";
+  font-size: 90px;
+  font-weight: 100;
+  max-width: 970px;
+  padding-top: 130px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+
 }
 
 .header-section {
