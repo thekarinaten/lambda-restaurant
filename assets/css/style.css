@@ -148,7 +148,7 @@ header {
 .section-about_wrapper {
   background-image: url(/assets/images/about-bg.png);
   background-repeat: no-repeat;
-  background-position: 50% 0px;
+  background-position: 50% 0;
   display: flex;
   justify-content: center;
 }
