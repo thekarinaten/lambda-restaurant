@@ -49,7 +49,7 @@ button {
   justify-content: center;
   max-width: 486px;
   margin: 0 auto;
-  padding-bottom: 130px;
+  box-sizing: border-box;
 }
 
 .button-black {
