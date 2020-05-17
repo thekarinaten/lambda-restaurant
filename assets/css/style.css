@@ -12,8 +12,45 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   padding: 0px;
 }
 
-div {
-  box-sizing: border-box;
+div, 
+button {
+ box-sizing: border-box;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  max-width: 486px;
+  margin: 0 auto;
+  padding-bottom: 130px;
+}
+
+.button-black {
+  background-color: rgba(0, 0, 0, .7) ;
+  border: 2px solid #000;
+  justify-content: center;
+  margin: 17px 15px;
+  padding: 20px 50px;
+}
+
+.button-white {
+  background-color: rgba(255, 255, 255, .28);
+  border: 2px solid #fff;
+  justify-content: center;
+  padding: 20px 50px;
+}
+
+.button-item {
+  color: #fff;
+  font-family: 'Lato', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.promo-section {
+  padding-bottom: 130px;
 }
 
 .header-section {
@@ -64,7 +101,7 @@ div {
   display: flex;
 }
 
-.title {
+.content-title {
   color: #fff;
   font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
   font-size: 90px;
@@ -72,9 +109,18 @@ div {
   margin: 0 auto;
   max-width: 970px;
   text-align: center;
+  margin-top: 130px;
+  text-align: center;
+}
+
+.title-decoration {
+  display: block;
+  margin: 0 auto; 
+  text-align: center;
 }
 
 .wrapper {
   max-width: 1600px;
   margin: 0 auto;
 }
+
