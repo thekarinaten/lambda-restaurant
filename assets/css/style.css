@@ -5,16 +5,76 @@
 
 body {
   margin: 0 auto;
-  max-width: 1600px;
+}
+
+body, html, ul, ol, li, p, h1, h2, h3, h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  box-sizing: border-box;
 }
 
 .header-section {
-  padding-left: 175px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
   padding-right: 175px;
+  padding-left: 175px;
 }
 
 .header-title {
   color: #fff;
+  font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
   font-size: 36px;
   text-transform: uppercase;
+}
+
+.intro-container {
+  background-image: url(/assets/images/background-intro.png);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+
+.menu-bar,
+.socials {
+  display: flex;
+  list-style: none;
+}
+
+.menu-item {
+  color: #fff;
+  font-size: 21px;
+  padding: 45px 30px;
+  text-transform: capitalize;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.social-image {
+  margin-right: 8px;
+  width: 23px; 
+}
+
+.social-item {
+  align-items: center;
+  display: flex;
+}
+
+.title {
+  color: #fff;
+  font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
+  font-size: 90px;
+  font-weight: 100;
+  margin: 0 auto;
+  max-width: 970px;
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
 }
