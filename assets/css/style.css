@@ -3,6 +3,25 @@
   src: url(../fonts/yeseva-regular.ttf);
 }
 
+body {
+  margin: 0 auto;
+}
+
+body, html, ul, ol, li, p, h1, h2, h3, h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+div,
+button {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .about-cook {
   transform: translateX(15%);
 }
@@ -31,27 +50,9 @@
   padding: 20px;
 }
 
-body {
-  margin: 0 auto;
-}
-
-body,
-html,
-ul,
-ol,
-li,
-p,
-h1,
-h2,
-h3,
-h4 {
-  margin: 0px;
-  padding: 0px;
-}
-
-div,
-button {
-  box-sizing: border-box;
+.appetisers-salads-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .button {
@@ -97,10 +98,6 @@ button {
   margin: 0px auto;
 }
 
-div {
-  box-sizing: border-box;
-}
-
 .description {
   color: #4c4c4c;
   font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
@@ -122,12 +119,6 @@ div {
 
 .dish-item {
   margin: 40px;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .header-section {
@@ -300,9 +291,4 @@ margin: 0px 30px 0px 30px
   display: block;
   margin: 0 auto;
   text-align: center;
-}
-
-.wrapper {
-  max-width: 1600px;
-  margin: 0 auto;
 }
