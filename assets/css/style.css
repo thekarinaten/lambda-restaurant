@@ -50,9 +50,8 @@ button {
   padding: 20px;
 }
 
-.appetisers-salads-wrapper {
-  display: flex;
-  flex-direction: column;
+.appetisers-wrapper {
+  padding-bottom: 45px;
 }
 
 .button {
@@ -101,11 +100,12 @@ button {
 .description {
   color: #4c4c4c;
   font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
+  white-space: nowrap;
 }
 
-.dish-description {
+.dish-name-price {
   display: flex;
   justify-content: space-between;
 }
@@ -114,11 +114,16 @@ button {
   color: #cc9900;
   font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
   font-size: 21px;
+  font-weight: 100;
   text-transform: capitalize;
 }
 
+.dish-item-special {
+  padding: 30px 0px;
+}
+
 .dish-item {
-  margin: 40px;
+  padding: 15px 0px;
 }
 
 .header-section {
@@ -223,7 +228,7 @@ margin: 0px 30px 0px 30px
 }
 
 .menu-title {
-  color: #cc9900;
+  color: #c90;
   font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
   font-size: 36px;
   text-align: center;
@@ -232,9 +237,9 @@ margin: 0px 30px 0px 30px
 }
 
 .menu-wrapper {
-  align-items: center;
   display: flex;
-  padding: 100px 273px;
+  padding: 90px 270px;
+  justify-content: space-evenly;
 }
 
 .nav-bar {
@@ -274,6 +279,24 @@ margin: 0px 30px 0px 30px
 .social-item {
   align-items: center;
   display: flex;
+}
+
+.special-salad {
+  position: absolute;
+  top: 2775px;
+  right: 980px;
+  padding: 30px 0px;
+}
+
+.special-lamb {
+  position: absolute;
+  top: 2710px;
+  right: 395px;
+  padding: 30px 0px;
+}
+
+.starters-wrapper {
+  padding-bottom: 70px;
 }
 
 .content-title {
