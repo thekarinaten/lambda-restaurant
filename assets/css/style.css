@@ -111,15 +111,18 @@ button {
 }
 
 .dish-name {
-  color: #cc9900;
+  color: #c90;
   font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
   font-size: 21px;
   font-weight: 100;
   text-transform: capitalize;
 }
 
-.dish-item-special {
-  padding: 30px 0px;
+.dish-special {
+  border: 1px solid #c90;
+  margin: 15px 0px;
+  position: relative;
+  padding: 10px;
 }
 
 .dish-item {
@@ -281,22 +284,22 @@ margin: 0px 30px 0px 30px
   display: flex;
 }
 
-.special-salad {
+.special {
+  color: #fff;
+  background-color: #c90;
+  font-family: 'Lato', 'Arial', 'Times New Roman', serif;
+  font-size: 14px;
+  line-height: 24px;
   position: absolute;
-  top: 2775px;
-  right: 1155px;
-  padding: 30px 0px;
-}
-
-.special-lamb {
-  position: absolute;
-  top: 2710px;
-  right: 485px;
-  padding: 30px 0px;
+  padding: 3px 20px;
+  top: 0px;
+  right: 0px;
+  transform: translateY(-100%);
+  text-transform: capitalize;
 }
 
 .starters-wrapper {
-  padding-bottom: 70px;
+  padding-bottom: 45px;
 }
 
 .content-title {
