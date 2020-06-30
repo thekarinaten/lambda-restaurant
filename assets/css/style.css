@@ -54,6 +54,10 @@ button {
   padding-bottom: 45px;
 }
 
+.appetisers-salads-wrapper {
+  padding-right: 170px;
+}
+
 .button {
   display: flex;
   justify-content: center;
@@ -120,13 +124,13 @@ button {
 
 .dish-special {
   border: 1px solid #c90;
-  margin: 15px 0px;
+  margin: 30px 0px;
   position: relative;
   padding: 10px;
 }
 
 .dish-item {
-  padding: 15px 0px;
+  margin-top: 15px;
 }
 
 .header-section {
@@ -241,8 +245,8 @@ margin: 0px 30px 0px 30px
 
 .menu-wrapper {
   display: flex;
-  padding: 90px 270px;
-  justify-content: space-evenly;
+  justify-content: center;
+  padding: 90px 0px;
 }
 
 .nav-bar {
@@ -293,7 +297,7 @@ margin: 0px 30px 0px 30px
   position: absolute;
   padding: 3px 20px;
   top: 0px;
-  right: 0px;
+  right: -2px;
   transform: translateY(-100%);
   text-transform: capitalize;
 }
