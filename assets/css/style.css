@@ -259,6 +259,62 @@ margin: 0px 30px 0px 30px
   padding: 120px;
 }
 
+.reviews-section {
+  background-image: url(/assets/images/reviews-bg.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.reviews-divider {
+  padding: 25px 0px;
+}
+
+.review-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.reviews-quotes {
+  color: #fff;
+  font-family: 'Georgia', 'Arial', 'Times New Roman', serif;
+  font-size: 96px;
+  line-height: 45px;
+}
+
+.reviews-title {
+  color: #fff;
+  font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.reviews-txt {
+  color: #fff;
+  font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.reviews-cite {
+  color: #fff;
+  font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
+  font-size: 18px;
+}
+
+.reviews-wrapper {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.67);
+  display: flex;
+  flex-direction: column;
+  max-width: 770px;
+  padding: 80px 60px;
+  margin: 100px 400px;
+}
+
 .section-about {
   display: flex;
   justify-content: space-between;
