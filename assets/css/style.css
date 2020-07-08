@@ -3,7 +3,44 @@
   src: url(../fonts/yeseva-regular.ttf);
 }
 
+div, 
+button {
+ box-sizing: border-box;
+}
+
+.about-cook {
+  transform: translateX(15%);
+  padding-top: 50px;
+}
+
+.about-food {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 430px;
+  text-align: center;
+}
+
+.about-title {
+  color: #c90;
+  font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+
+.about-txt {
+  color: #4c4c4c;
+  font-family: 'Lato', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 16px;
+  padding-top: 30px;
+}
+
 body {
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -12,17 +49,11 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   padding: 0px;
 }
 
-div, 
-button {
- box-sizing: border-box;
-}
-
 .button {
   display: flex;
   justify-content: center;
   max-width: 486px;
   margin: 0 auto;
-  padding-bottom: 130px;
 }
 
 .button-black {
@@ -37,6 +68,7 @@ button {
   background-color: rgba(255, 255, 255, .28);
   border: 2px solid #fff;
   justify-content: center;
+  margin: 17px 15px;
   padding: 20px 50px;
 }
 
@@ -49,8 +81,18 @@ button {
   white-space: nowrap;
 }
 
-.promo-section {
-  padding-bottom: 130px;
+.content-title {
+  color: #fff;
+  font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
+  font-size: 90px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-section {
@@ -91,6 +133,25 @@ button {
   display: flex;
 }
 
+.promo-section {
+  padding-bottom: 110px;
+}
+
+.section-about {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.section-about_wrapper {
+  background-image: url(/assets/images/about-bg.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  display: flex;
+  justify-content: center;
+}
+
 .social-image {
   margin-right: 8px;
   width: 23px; 
@@ -113,14 +174,9 @@ button {
   text-align: center;
 }
 
+
 .title-decoration {
   display: block;
   margin: 0 auto; 
   text-align: center;
 }
-
-.wrapper {
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
