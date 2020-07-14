@@ -87,6 +87,14 @@ button {
   white-space: nowrap;
 }
 
+.booking-form {
+  display: flex;
+}
+
+.booking-name {
+  padding-right: 30px;
+}
+
 .content-title {
   color: rgb(255, 255, 255);
   font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
@@ -127,6 +135,42 @@ button {
 
 .dish-item {
   padding: 15px 0px;
+}
+
+.form-input-date {
+  border-color: rgba(255, 255, 255, .4);
+  font-style: italic;
+  padding: 12px;
+  margin-top: 10px;
+  width: 195px;
+}
+
+.form-input-date:focus {
+  outline: 1px solid #c90;
+}
+
+.form-input:focus {
+  outline: 1px solid #c90;
+}
+
+.form-input {
+  border-color: rgba(255, 255, 255, .4);
+  font-style: italic;
+  padding: 15px;
+  margin-top: 10px;
+  width: 195px;
+}
+
+.form-item {
+  padding-top: 20px;
+}
+
+.form-title {
+  color: #c90;
+  font-family: 'Open Sans', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 .header-section {
@@ -259,6 +303,71 @@ margin: 0px 30px 0px 30px
   padding: 120px;
 }
 
+.reservation-booking {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  justify-content: center;
+}
+
+.reservation-button {
+  background-color: #c90;
+  border: none;
+  padding: 10px 60px;
+  margin-top: 30px;
+}
+
+.reservation-button-txt {
+  color: #fff;
+  font-family: 'Open Sans', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 16px;
+}
+
+.reservation-description {
+  text-align: center;
+}
+
+.reservation-divider {
+  padding: 20px 0px;
+}
+
+.reservation-dish {
+  padding: 0px 15px;
+}
+
+.reservation-images {
+  padding-right: 100px;
+}
+
+.reservation-section {
+  background-image: url(/assets/images/reservation-bg.png);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.reservation-title {
+  color: #c90;
+  font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
+  font-size: 36px;
+  line-height: 24px;
+}
+
+.reservation-txt {
+  color: #000;
+  font-family: 'Lato', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.reservation-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+ 
 .reviews-section {
   background-image: url(/assets/images/reviews-bg.jpg);
   background-position: 50% 0;
