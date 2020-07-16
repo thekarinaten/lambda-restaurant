@@ -173,6 +173,59 @@ button {
   text-transform: capitalize;
 }
 
+.footer-divider {
+  padding: 15px 0px;
+}
+
+.footer-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 340px;
+  margin: 0px 50px;
+  text-align: center;
+}
+
+.footer-icons {
+  padding-top: 50px;
+}
+
+.footer-title {
+  color: #fff;
+  font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
+  font-size: 21px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.footer-txt {
+  color: #fff;
+  font-family: 'Open Sans', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-txt-location {
+  color: #fff;
+  font-family: 'Open Sans', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.footer-section {
+  background-image: url(/assets/images/footer-bg.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+
+.footer-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 45px;
+}
+
 .header-section {
   align-items: center;
   display: flex;
