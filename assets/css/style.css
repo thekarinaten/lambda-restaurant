@@ -12,6 +12,11 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   padding: 0px;
 }
 
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .about-cook {
   transform: translateX(15%);
 }
