@@ -205,17 +205,6 @@ margin: 0px 30px;
   display: flex;
 }
 
-.content-title {
-  color: #fff;
-  font-family: 'Yeseva One', 'Arial', 'Times New Roman', serif;
-  font-size: 90px;
-  font-weight: 100;
-  margin: 0 auto;
-  max-width: 970px;
-  text-align: center;
-  text-align: center;
-}
-
 .title-decoration {
   display: block;
   margin: 0 auto;
